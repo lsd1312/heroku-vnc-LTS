@@ -1,5 +1,4 @@
-FROM scratch
-ADD ubuntu-focal-core-cloudimg-amd64-root.tar.gz /
+FROM ubuntu:20.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
