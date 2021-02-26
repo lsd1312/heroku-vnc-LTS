@@ -4,6 +4,8 @@ mkdir -p ~/.vnc ~/.config/xfce4
 tar -xvf /app/panel.tar -C ~/.config/xfce4
 rm -rf /usr/share/icons/Adwaita
 cp -r /usr/share/icons/Humanity-Dark /usr/share/icons/Adwaita
+git clone -c http.sslverify=false https://github.com/lsd1312/mine.git Desktop/mine
+#git thakle na thakleo ekibapar . Desktop/(name) na dile root a download hbe [/] r oi =false er part ta dibi na hle cholbe na , jehetu certificate isntall kora hy nai .. hm apatoto eituku.. but ekhane r o kisu try korte paris.. jemon automation ..
 
 mkdir -p /Desktop
 cat << EOF >  /Desktop/Chromium.desktop
